@@ -13,9 +13,13 @@ def main():
         data = response.json()
         weather = data["weather"][0]["description"]
         temperature = round(data["main"]["temp"] - 273.15, 2)
+        wind_speed = round(data["wind"]["speed"] * 3.6, 2)
+        location = data["name"]
 
-        print(f"Weather: {weather}")
+        print(f"Information is shown for {location}")
+        print(f"Weather condition: {weather}")
         print(f"Temperature: {temperature}°C")
+        print(f"Wind speed: {wind_speed} km/h")
     else:
         print("An error occured.")
 

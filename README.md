@@ -4,11 +4,13 @@ Idea for the project: https://www.youtube.com/watch?v=Oz3W-LKfafE&list=WL&index=
 
 API for this project: https://openweathermap.org/
 
-After running the program you can enter the city you want to know the weather condition as well as the temperature about.
+After running the program you can enter the city you want to know the weather condition, the temperature and the actual wind speed about.
 
 ```
 ❯ python3 main.py
-Enter a city name: Hamburg
-Weather: broken clouds
-Temperature: 6.07°`
+Enter a city name: hamburg
+Information is shown for Hamburg
+Weather condition: light intensity drizzle
+Temperature: 5.98°C
+Wind speed: 14.83 km/h
 ```
